@@ -37,3 +37,10 @@
   background-size: cover;
   background-position: bottom;
 }
+
+.underline-3 {
+  @apply py-3;
+  background-image: url("/underline3.png");
+  background-size: cover;
+  background-position: bottom;
+}
