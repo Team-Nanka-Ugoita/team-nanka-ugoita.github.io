@@ -2,7 +2,7 @@ export default function Top() {
   return (
     <div className="relative flex w-full h-screen">
       <img className="absolute top-0 left-0 w-full h-full object-cover opacity-50" src="/background.png" />
-      <div className="absolute top-1/2 left-1/2 -translate-1/2 w-full lg:w-6xl xl:w-[104rem] flex absolute top-0 left-0 right-0 bottom-0 justify-center items-center">
+      <div className="absolute top-1/2 left-1/2 -translate-1/2 w-full lg:w-6xl w-full xl:w-[80rem] 2xl:w-[104rem] max-w-full flex absolute top-0 left-0 right-0 bottom-0 justify-center items-center">
         <svg className="w-full absolute top-1/2 left-1/2 -translate-1/2 fill-white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 800 562.1">
           <g>
             <path d="M407.7,451.3c16.9-2.8,59.4,57.4,59.4,57.4s-27.2-75.6,15.9-70c16.7,2.2,32,16.5,32,16.5s-4.8-15.2,3.6-26.1
@@ -44,9 +44,9 @@ export default function Top() {
         </svg>
       </div>
       <div className="relative w-full h-screen flex p-16 justify-center items-center">
-        <div className="absolute top-1/2 left-1/2 -translate-1/2 flex flex-col justify-center items-center gap-8 -rotate-3">
-          <span className='text-3xl text-amber-600 tracking-wider font-bold rotate-1'>Challenge to THE HACK!?</span>
-          <h1 className='text-8xl font-bold text-black text-center leading-[1.5]'>
+        <div className="absolute top-1/2 left-1/2 -translate-1/2 flex flex-col justify-center items-center gap-4 lg:gap-8 -rotate-3">
+          <span className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-amber-600 tracking-wider font-bold rotate-1'>Challenge to THE HACK!?</span>
+          <h1 className='text-4xl sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold text-black text-center leading-[1.5] whitespace-nowrap'>
             <span className="underline-1">未経験ふたり</span><br />
             <span className="underline-2">ハッカソンに挑戦!?</span>
           </h1>
