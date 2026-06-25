@@ -3,7 +3,7 @@ export default function About() {
     <div className="relative isolate flex w-full px-16 py-32 flex-col gap-8 items-center text-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-amber-50"></div>
-        <img className="absolute top-1/2 left-1/2 -translate-1/2 h-[150%] w-[150%] object-cover opacity-50" src="/background2.png" alt="" />
+        <img className="absolute top-1/2 left-1/2 -translate-1/2 h-[150%] w-[150%] object-cover opacity-40" src="/background2.png" alt="" />
       </div>
       <span className="relative z-10 text-amber-600 text-xl font-bold tracking-widest">ABOUT US</span>
       <h2 className='relative z-10 text-6xl text-slate-950 font-bold leading-[1.5]'>
