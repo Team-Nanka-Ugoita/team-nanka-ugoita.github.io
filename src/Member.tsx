@@ -226,7 +226,7 @@ const members: MemberCardProps[] = [
 export default function Member() {
   return (
     <div id="members" className="background--dot flex w-full flex-col items-center gap-16 px-4 py-20 text-black sm:px-8 sm:py-24 lg:gap-24 lg:px-16">
-      <div className="flex max-w-5xl flex-col items-center justify-center gap-4 text-center">
+      <div className="flex max-w-5xl flex-col items-center justify-center gap-6 text-center">
         <span className="text-base font-bold tracking-widest text-amber-600 sm:text-xl">MEMBERS</span>
         <h2 className="text-4xl font-bold leading-[1.25] sm:text-5xl lg:text-6xl">
           チームメンバー
