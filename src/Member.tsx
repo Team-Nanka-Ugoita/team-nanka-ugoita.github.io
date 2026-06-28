@@ -188,7 +188,7 @@ const members: MemberCardProps[] = [
   },
   {
     id: '02',
-    name: 'たいき',
+    name: 'Tik',
     description: (
       <>
         名城大学情報工学部情報工学科1年生。名城大学情報技術研究会所属。<br />
