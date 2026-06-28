@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+﻿import type { ReactNode } from 'react'
 import WorkCard, { type Work } from './WorkCard'
 
 export type MemberCardProps = {
@@ -30,3 +30,4 @@ export default function MemberCard({ id, name, description, works, className = '
     </section>
   )
 }
+
