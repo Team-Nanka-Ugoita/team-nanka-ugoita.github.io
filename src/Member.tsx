@@ -225,17 +225,17 @@ const members: MemberCardProps[] = [
 
 export default function Member() {
   return (
-    <div className="flex w-full background--dot px-16 py-24 flex-col gap-24 items-center text-black">
-      <div className="flex flex-col justify-center items-center gap-4">
-        <span className="text-xl font-bold tracking-widest text-amber-600">MEMBERS</span>
-        <h2 className="text-6xl font-bold leading-[1.25]">
+    <div id="members" className="background--dot flex w-full flex-col items-center gap-16 px-4 py-20 text-black sm:px-8 sm:py-24 lg:gap-24 lg:px-16">
+      <div className="flex max-w-5xl flex-col items-center justify-center gap-4 text-center">
+        <span className="text-base font-bold tracking-widest text-amber-600 sm:text-xl">MEMBERS</span>
+        <h2 className="text-4xl font-bold leading-[1.25] sm:text-5xl lg:text-6xl">
           チームメンバー
         </h2>
-        <p className="text-xl leading-[1.7]">
+        <p className="text-base leading-[1.8] sm:text-lg lg:text-xl">
           チーム「なんかうごいた」のメンバーです。それぞれの強みを活かして、一緒にプロジェクトを進めます。<br />
         </p>
       </div>
-      <div className="max-w-6xl flex gap-16 flex-col">
+      <div className="flex w-full max-w-6xl flex-col gap-10 lg:gap-16">
         {members.map((member) => (
           <MemberCard key={member.name} {...member} />
         ))}
@@ -243,6 +243,8 @@ export default function Member() {
     </div>
   )
 }
+
+
 
 
 

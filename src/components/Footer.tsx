@@ -1,6 +1,6 @@
-function Footer() {
+﻿function Footer() {
   return (
-    <footer className="flex w-full bg-amber-500 text-white px-8 py-16 flex-col gap-24 items-center">
+    <footer className="flex w-full flex-col items-center gap-8 bg-amber-500 px-4 py-10 text-center text-sm text-white sm:px-8 sm:py-16 sm:text-base">
       <span>Copyright 2026 Team Nanka Ugoita - All Rights Reserved</span>
     </footer>
   )

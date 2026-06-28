@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -25,21 +25,21 @@
 }
 
 .underline-1 {
-  @apply px-2 py-6 lg:px-4 lg:py-8 2xl:px-6 2xl:py-10;
+  @apply px-1 py-3 sm:px-2 sm:py-6 lg:px-4 lg:py-8 2xl:px-6 2xl:py-10;
   background-image: url("/underline1.png");
   background-size: cover;
   background-position: bottom;
 }
 
 .underline-2 {
-  @apply px-2 py-6 lg:px-4 lg:py-8 2xl:px-6 2xl:py-10;
+  @apply px-1 py-3 sm:px-2 sm:py-6 lg:px-4 lg:py-8 2xl:px-6 2xl:py-10;
   background-image: url("/underline2.png");
   background-size: cover;
   background-position: bottom;
 }
 
 .underline-3 {
-  @apply py-3;
+  @apply py-1 sm:py-3;
   background-image: url("/underline3.png");
   background-size: cover;
   background-position: bottom;

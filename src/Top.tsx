@@ -1,9 +1,9 @@
-export default function Top() {
+﻿export default function Top() {
   return (
-    <div className="relative flex w-full h-screen">
+    <div id="top" className="relative flex w-full min-h-screen overflow-hidden">
       <img className="absolute top-0 left-0 w-full h-full object-cover opacity-50" src="/background.png" />
-      <div className="absolute top-1/2 left-1/2 -translate-1/2 w-full lg:w-6xl w-full xl:w-[80rem] 2xl:w-[104rem] max-w-full flex absolute top-0 left-0 right-0 bottom-0 justify-center items-center">
-        <svg className="w-full absolute top-1/2 left-1/2 -translate-1/2 fill-white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 800 562.1">
+      <div className="absolute inset-0 flex items-center justify-center">
+        <svg className="absolute top-1/2 left-1/2 max-w-[200%] -translate-1/2 fill-white w-full sm:w-[105vw] md:w-[70rem] lg:w-[80rem] 2xl:w-[104rem]" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 800 562.1">
           <g>
             <path d="M407.7,451.3c16.9-2.8,59.4,57.4,59.4,57.4s-27.2-75.6,15.9-70c16.7,2.2,32,16.5,32,16.5s-4.8-15.2,3.6-26.1
   c8.3-10.9,112.9,52.2,112.9,52.2s-29.6-57.9-34.3-76.4c-4.8-18.5,30.7-1.5,30.7-1.5s-11.8-12.3-15.4-22.9
@@ -18,7 +18,7 @@ export default function Top() {
   s21.4-61.1,38.7-59.8c17.2,1.3,20.1,24.9,20.1,24.9S387,454.7,407.7,451.3z"></path>
           </g>
         </svg>
-        <svg className="w-full fill-neutral-800" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 800 489.646">
+        <svg className="max-w-[200%] fill-neutral-800 sm:w-[105vw] md:w-[70rem] lg:w-[80rem] 2xl:w-[104rem]" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 800 489.646">
           <g>
             <path d="M800,259.377c0,0-115.647-23.199-121.815-51.262c-5.42-24.665,75.738-70.127,75.738-70.127
                   s-70.366,10.434-99.093-3.422c-45.625-22.004,35.285-98.092,49.813-118.374c0,0-103.482,74.232-144.032,68.631
@@ -43,18 +43,21 @@ export default function Top() {
           </g>
         </svg>
       </div>
-      <div className="relative w-full h-screen flex p-16 justify-center items-center">
+      <div className="relative flex min-h-screen w-full items-center justify-center px-4 py-24 sm:px-8 lg:p-16">
         <div className="absolute top-1/2 left-1/2 -translate-1/2 flex flex-col justify-center items-center gap-4 lg:gap-8 -rotate-3">
-          <span className='text-lg md:text-xl lg:text-2xl xl:text-3xl text-amber-600 tracking-wider font-bold rotate-1'>Challenge to THE HACK!?</span>
-          <h1 className='text-4xl sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold text-black text-center leading-[1.5] whitespace-nowrap'>
-            <span className="underline-1">未経験ふたり</span><br />
+          <span className='text-sm font-bold tracking-wider text-amber-600 rotate-1 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>Challenge to THE HACK!?</span>
+          <h1 className='text-center text-4xl font-bold leading-[1.45] text-black sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap'>
+            <span className="underline-1">未経験のふたり</span><br />
             <span className="underline-2">ハッカソンに挑戦!?</span>
           </h1>
         </div>
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center">
-          <span className='text-white text-lg tracking-widest'>PLEASE SCROLL!</span>
+        <div className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center sm:bottom-12">
+          <span className='text-sm tracking-widest text-white sm:text-lg'>PLEASE SCROLL!</span>
         </div>
       </div>
     </div>
   )
 }
+
+
+
