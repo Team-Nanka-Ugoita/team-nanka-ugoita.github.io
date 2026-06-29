@@ -46,7 +46,7 @@
       <div className="relative flex min-h-screen w-full items-center justify-center px-4 py-24 sm:px-8 lg:p-16">
         <div className="absolute top-1/2 left-1/2 -translate-1/2 flex flex-col justify-center items-center gap-4 lg:gap-8 -rotate-3">
           <span className='text-sm font-bold tracking-wider text-amber-600 rotate-1 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>Challenge to THE HACK!?</span>
-          <h1 className='text-center text-4xl font-bold leading-[1.45] text-black sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap'>
+          <h1 className='text-center font-bold leading-[1.45] text-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl whitespace-nowrap'>
             <span className="underline-1">未経験のふたり</span><br />
             <span className="underline-2">ハッカソンに挑戦!?</span>
           </h1>
