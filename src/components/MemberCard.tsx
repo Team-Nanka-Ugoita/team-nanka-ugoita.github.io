@@ -19,7 +19,7 @@ export default function MemberCard({ id, name, icon, description, works, classNa
           <h3 className="text-4xl font-bold sm:text-5xl">{name}</h3>
           <p className="text-base leading-[1.8] sm:text-lg">{description}</p>
         </div>
-        <img className="mx-auto h-36 w-36 shrink-0 rounded-full object-cover sm:h-48 sm:w-48 lg:mx-0 lg:h-80 lg:w-80" src={icon} alt="" />
+        <img className="mx-auto h-36 w-36 shrink-0 rounded-full object-cover sm:h-48 sm:w-48 lg:mx-0 lg:h-80 lg:w-80 border-6 border-amber-500" src={icon} alt="" />
       </div>
 
       <h4 className="mt-2 text-xl font-bold sm:text-2xl">主な制作物</h4>
