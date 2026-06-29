@@ -9,6 +9,7 @@ const members: MemberCardProps[] = [
   {
     id: '01',
     name: 'しゅんぺい',
+    icon: '/shumpei.jpg',
     description: (
       <>
         名城大学情報工学部情報工学科1年生。名城大学情報技術研究会所属。<br />
@@ -189,6 +190,7 @@ const members: MemberCardProps[] = [
   {
     id: '02',
     name: 'Tik',
+    icon: '/tik.jpg',
     description: (
       <>
         名城大学情報工学部情報工学科1年生。名城大学情報技術研究会所属。<br />
@@ -237,7 +239,7 @@ export default function Member() {
       </div>
       <div className="flex w-full max-w-6xl flex-col gap-10 lg:gap-16">
         {members.map((member) => (
-          <MemberCard key={member.name} {...member} />
+          <MemberCard key={member.id} {...member} />
         ))}
       </div>
     </div>
